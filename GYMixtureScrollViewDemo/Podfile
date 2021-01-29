@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://github.com/Zhugy/GYSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'GYMixtureScrollViewDemo' do
+  
+  use_frameworks!
+
+  pod 'GYMixtureScrollView', :path => '../'
+  pod 'Masonry'
+  pod 'GYBaseKit'
+
+end

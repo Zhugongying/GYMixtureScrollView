@@ -1,0 +1,30 @@
+PODS:
+  - GYBaseKit (0.1.0)
+  - GYMixtureScrollView (0.1.0):
+    - GYBaseKit
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - GYBaseKit
+  - GYMixtureScrollView (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+  https://github.com/Zhugy/GYSpecs.git:
+    - GYBaseKit
+
+EXTERNAL SOURCES:
+  GYMixtureScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GYBaseKit: ba5f0b44e9de1c3cc4dbaf351932e2101ef47956
+  GYMixtureScrollView: 746a8b652a8a950e1462a6ef7852c7f790f29d0c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 9793f1e5b0f39d6d545bbe7e8e5dc83910950b44
+
+COCOAPODS: 1.9.1

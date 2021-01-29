@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-GYMixtureScrollViewDemo/Pods-GYMixtureScrollViewDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GYBaseKit/GYBaseKit.framework
+${BUILT_PRODUCTS_DIR}/GYMixtureScrollView/GYMixtureScrollView.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework

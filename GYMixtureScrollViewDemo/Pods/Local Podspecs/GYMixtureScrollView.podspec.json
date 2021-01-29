@@ -1,0 +1,37 @@
+{
+  "name": "GYMixtureScrollView",
+  "version": "0.1.0",
+  "summary": "GYMixtureScrollView",
+  "homepage": "http://www.baidu.com",
+  "license": "MIT",
+  "authors": {
+    "zhugy781": "zhugy781@163.com"
+  },
+  "social_media_url": "",
+  "source": {
+    "git": "https://github.com/Zhugongying/GYMixtureScrollView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GYMixtureScrollView/GYMixtureScrollView/**/*.{h,m,mm,c}",
+  "exclude_files": "GYMixtureScrollView/GYMixtureScrollView/info.plist",
+  "libraries": [
+    "stdc++",
+    "resolv"
+  ],
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "GYBaseKit": [
+
+    ]
+  }
+}
