@@ -8,14 +8,14 @@
 
 #### 线上效果图
 
-<img src="./gameDemo.MOV" width = "360" height = "640" alt="game" align=center />
+<img src="./Image/gameDemo.gif" width = "360" height = "640" alt="game" align=center />
 
 
 #### 设计图
-<img src="./脑图.png" width = "412" height = "354" alt="game" align=center />
+<img src="./Image/脑图.png" width = "412" height = "354" alt="game" align=center />
 
 #### 效果图
-<img src="./demo-min.gif" width = "311" height = "727" alt="game" align=center />
+<img src="./Image/demo-min.gif" width = "311" height = "727" alt="game" align=center />
 
 #### 核心代码
 ```
