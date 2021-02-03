@@ -8,7 +8,7 @@
 
 #### 线上效果图
 
-<img src="./game.gif" width = "360" height = "640" alt="game" align=center />
+<img src="./gameDemo.MOV" width = "360" height = "640" alt="game" align=center />
 
 
 #### 设计图
