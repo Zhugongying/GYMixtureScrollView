@@ -27,6 +27,21 @@
     return self;
 }
 
+- (void)drawRect:(CGRect)rect {
+    CGRect lableRect = self.bsLabel.bounds;
+    lableRect = CGRectMake(lableRect.origin.x + 5, lableRect.origin.y + 5, lableRect.size.width - 10, lableRect.size.height - 10);
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:lableRect cornerRadius:10];
+    
+    CAShapeLayer *labelLayer = [CAShapeLayer layer];
+    labelLayer.lineWidth = 1;
+    labelLayer.path = path.CGPath;
+    labelLayer.fillColor = UIColor.clearColor.CGColor;
+    labelLayer.lineCap = kCALineCapRound;
+    labelLayer.borderColor = UIColor.clearColor.CGColor;
+    labelLayer.strokeColor = UIColor.redColor.CGColor;
+    [self.contentView.layer addSublayer:labelLayer];
+}
+
 - (void)setupUI {
     [self.contentView addSubview:self.bsLabel];
     [self.bsLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -40,8 +55,9 @@
 - (UILabel *)bsLabel {
     if (_bsLabel == nil) {
         _bsLabel = [[UILabel alloc] init];
-        _bsLabel.text = @"这是个说明";
-        _bsLabel.backgroundColor = UIColor.gy_paleGrey;
+        _bsLabel.text = @"说明";
+        _bsLabel.backgroundColor = UIColor.whiteColor;
+        _bsLabel.textAlignment = NSTextAlignmentCenter;
     }
     return _bsLabel;
 }

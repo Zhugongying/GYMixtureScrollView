@@ -22,6 +22,7 @@
     self = [super initWithReuseIdentifier:reuseIdentifier];
     if (self) {
         [self setupUI];
+        self.contentView.backgroundColor = UIColor.gy_fadedBlue;
     }
     return self;
 }

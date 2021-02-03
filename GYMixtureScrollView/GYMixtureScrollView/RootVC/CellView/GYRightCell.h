@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GYRightCell : UITableViewCell
 
+@property (nonatomic, strong, nullable) UIColor *bordColor;
+
 @end
 
 NS_ASSUME_NONNULL_END
